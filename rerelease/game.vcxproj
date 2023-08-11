@@ -106,9 +106,32 @@
     <ClInclude Include="cg_local.h" />
     <ClInclude Include="ctf\g_ctf.h" />
     <ClInclude Include="ctf\p_ctf_menu.h" />
+    <ClInclude Include="fmt\args.h" />
+    <ClInclude Include="fmt\chrono.h" />
+    <ClInclude Include="fmt\color.h" />
+    <ClInclude Include="fmt\compile.h" />
+    <ClInclude Include="fmt\core.h" />
+    <ClInclude Include="fmt\format-inl.h" />
+    <ClInclude Include="fmt\format.h" />
+    <ClInclude Include="fmt\os.h" />
+    <ClInclude Include="fmt\ostream.h" />
+    <ClInclude Include="fmt\printf.h" />
+    <ClInclude Include="fmt\ranges.h" />
+    <ClInclude Include="fmt\std.h" />
+    <ClInclude Include="fmt\xchar.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="g_local.h" />
     <ClInclude Include="g_statusbar.h" />
+    <ClInclude Include="json\allocator.h" />
+    <ClInclude Include="json\assertions.h" />
+    <ClInclude Include="json\config.h" />
+    <ClInclude Include="json\forwards.h" />
+    <ClInclude Include="json\json.h" />
+    <ClInclude Include="json\json_features.h" />
+    <ClInclude Include="json\reader.h" />
+    <ClInclude Include="json\value.h" />
+    <ClInclude Include="json\version.h" />
+    <ClInclude Include="json\writer.h" />
     <ClInclude Include="m_actor.h" />
     <ClInclude Include="m_arachnid.h" />
     <ClInclude Include="m_berserk.h" />
@@ -239,6 +262,10 @@
     <ClCompile Include="xatrix\m_xatrix_fixbot.cpp" />
     <ClCompile Include="xatrix\m_xatrix_gekk.cpp" />
     <ClCompile Include="xatrix\p_xatrix_weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fmt\" />
+    <Folder Include="json\" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
